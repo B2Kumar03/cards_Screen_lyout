@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            /* border:2px solid red; */
+            height:auto;
+            width:80%;
+            margin:0 auto;
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            grid-template-rows: repeat(3,180px);
+            gap: 50px;
+           
+
+
+        }
+        .box{
+            /* border:2px solid blue; */
+            border-radius: 10px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            
+        }
+        .di{
+            /* border:2px solid red; */
+            width:100%;
+            height:auto;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+        }
+        
+        .p2{
+              color:  #999900;
+              font-size:20px;
+              font-weight:bold;
+
+        }
+        .p1{
+            margin-right:92px;
+            font-size:22px;
+            font-weight:bold;
+        }
+        .p3{
+            margin-left:29px;
+            font-size: 19px;
+            color:#737373;
+
+        }
+        @media all and (min-width:500px) and (max-width:1000px)
+        {
+            #container{
+                grid-template-rows: repeat(5,180px);
+                grid-template-columns:repeat(2,1fr);
+
+            }
+        }
+        @media all and (min-width:100px) and (max-width:500px)
+        {
+            #container{
+                grid-template-rows: repeat(9,180px);
+                grid-template-columns:repeat(1,1fr);
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="box">
+            <div class="di">
+                <div><p class="p1">Cappuccino</p></div>
+                <div><p class="p2">$90</p></div>
+            </div>
+            <div><p class="p3">Usage of the internet is becoming more<br> due to rapid advance </p></div>
+        </div>
+        <div class="box">
+            <div class="di">
+                <div><p class="p1">Americano</p></div>
+                <div><p class="p2">$90</p></div>
+            </div>
+            <div><p class="p3">Usage of the internet is becoming more<br> due to rapid advance </p></div>
+        </div>
+        <div class="box">
+            <div class="di">
+                <div><p class="p1">Espresso</p></div>
+                <div><p class="p2">$90</p></div>
+            </div>
+            <div><p class="p3">Usage of the internet is becoming more<br> due to rapid advance </p></div>
+        </div>
+        <div class="box">
+            <div class="di">
+                <div><p class="p1">Macchiato</p></div>
+                <div><p class="p2">$90</p></div>
+            </div>
+            <div><p class="p3">Usage of the internet is becoming more<br> due to rapid advance </p></div>
+        </div>
+        <div class="box">
+            <div class="di">
+                <div><p class="p1">Cappuccino</p></div>
+                <div><p class="p2">$90</p></div>
+            </div>
+            <div><p class="p3">Usage of the internet is becoming more<br> due to rapid advance </p></div>
+        </div>
+        <div class="box">
+            <div class="di">
+                <div><p class="p1">Cappuccino</p></div>
+                <div><p class="p2">$90</p></div>
+            </div>
+            <div><p class="p3">Usage of the internet is becoming more<br> due to rapid advance </p></div>
+        </div>
+        <div class="box">
+            <div class="di">
+                <div><p class="p1">Cappuccino</p></div>
+                <div><p class="p2">$90</p></div>
+            </div>
+            <div><p class="p3">Usage of the internet is becoming more<br> due to rapid advance </p></div>
+        </div>
+        <div class="box">
+            <div class="di">
+                <div><p class="p1">Cappuccino</p></div>
+                <div><p class="p2">$90</p></div>
+            </div>
+            <div><p class="p3">Usage of the internet is becoming more<br> due to rapid advance </p></div>
+        </div>
+        <div class="box">
+            <div class="di">
+                <div><p class="p1">Cappuccino</p></div>
+                <div><p class="p2">$90</p></div>
+            </div>
+            <div><p class="p3">Usage of the internet is becoming more<br> due to rapid advance </p></div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
